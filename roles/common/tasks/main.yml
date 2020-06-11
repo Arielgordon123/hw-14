@@ -1,0 +1,9 @@
+---
+- name: install vim
+  apt:
+    name: vim
+    state: latest
+- name: install unzip
+  apt:
+    name: unzip
+    state: latest

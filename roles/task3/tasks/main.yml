@@ -1,0 +1,6 @@
+---
+- name: using template
+  template:
+    src: roles/task3/templates/file.j2
+    dest: /tmp/test2
+
